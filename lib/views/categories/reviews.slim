@@ -1,0 +1,39 @@
+html
+  head
+    link rel="stylesheet" href="#{ImageGenerator.configuration.protocol}cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    link href="#{ImageGenerator.configuration.protocol}fonts.googleapis.com/css?family=Open+Sans" rel='stylesheet' type='text/css'
+    css:
+      fieldset, label { margin: 0; padding: 0; }
+      body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 50px;
+        margin: 0;
+      }
+
+      .main {
+        position: absolute;
+        top: 90px;
+      }
+      .row {
+        display: -webkit-box;
+      }
+      .reviews-count {
+        margin-left: 130px;
+        color: #00B7AF;
+        font-size: 145px;
+      }
+      .rating-text {
+        font-size: 50px;
+        color: #4a4a4a;
+        margin-top: 70px;
+        margin-left: 50px;
+      }
+
+  body style="width: #{local_assigns[:width]}px; height: #{local_assigns[:height]}px;"
+    = local_assigns[:reviews_back_image]
+    .main
+      .row
+        .reviews-count
+          = local_assigns[:reviews_count]
+        .rating-text
+          = 'Verified Customer Reviews on Fivewalls'
