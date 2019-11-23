@@ -33,7 +33,7 @@ USAGE:
 ```
 ImageGenerator::Base.new(options).call
 ```
-Possible options: `:width, :height, :category, :rating, :rating_round, :reviews_count`
+Possible options: `:width, :height, :category, :rating, :rating_round, :reviews_count, :name, :photo_url`
 Default options are `width = 1500`, `height = 400`, `rating_round = 1`
 
 ## Development
