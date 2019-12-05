@@ -97,17 +97,17 @@ module ImageGenerator
     end
 
     def profile_back_image
-      path = File.expand_path('../../assets/images/quiz-background.png', __FILE__)
+      path = File.expand_path('../../assets/images/badge-background-3.jpg', __FILE__)
       image_tag_base64(file_path: path, options: { width: options[:width], height: options[:height] })
     end
 
     def rating_back_image
-      path = File.expand_path('../../assets/images/wall-background.png', __FILE__)
+      path = File.expand_path('../../assets/images/badge-background-2.jpg', __FILE__)
       image_tag_base64(file_path: path, options: { width: options[:width], height: options[:height] })
     end
 
     def reviews_back_image
-      path = File.expand_path('../../assets/images/agent-profile-header-desktop.png', __FILE__)
+      path = File.expand_path('../../assets/images/badge-background-1.jpg', __FILE__)
       image_tag_base64(file_path: path, options: { width: options[:width], height: options[:height] })
     end
 

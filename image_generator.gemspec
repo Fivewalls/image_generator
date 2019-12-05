@@ -19,12 +19,7 @@ Gem::Specification.new do |spec|
   end
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
-  spec.files         = [
-    "README.md","LICENSE",
-    "lib/assets/images/wall.png",
-    "lib/views/categories/rating.slim",
-    "lib/views/categories/reviews.slim"
-  ]
+  spec.files         = ["README.md", "LICENSE"]
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.17"
