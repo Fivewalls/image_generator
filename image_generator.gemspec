@@ -27,7 +27,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry", "~> 0.12.2"
   spec.add_dependency "font-awesome-rails", "~> 4.7", ">= 4.7.0.4"
   spec.add_dependency "imgkit", "~> 1.6", ">= 1.6.2"
-  spec.add_dependency "wkhtmltoimage-binary", "~> 0.12.5"
   spec.add_dependency "rails", ">= 4.2.9"
   spec.add_dependency "slim-rails", "~> 3.2"
 end
